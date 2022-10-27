@@ -8,4 +8,4 @@ Size 10cm x 10cm. Weight - about 495 grams. It uses Jsumo n30 400rpm motors, Tat
 <img src="https://user-images.githubusercontent.com/115423590/198258835-3f6492ba-dc0f-4125-b0e8-273955ebe7e8.jpg" width=19% height=10%> <img src="https://user-images.githubusercontent.com/115423590/198258843-7ee83e5b-babc-4d6e-81f1-2b75638bd82d.jpg" width=19% height=10%>
 <img src="https://user-images.githubusercontent.com/115423590/198258864-49e90cdb-aa28-4887-9464-9c97239de16a.jpg" width=19% height=10%>
 <img src="https://user-images.githubusercontent.com/115423590/198258884-15c56021-914a-4d5a-9a23-a9c525f0d2e4.jpg" width=19% height=10%>
-<img src="https://user-images.githubusercontent.com/115423590/198258911-99ea0a13-8e5f-4184-8b23-a4d719cf5870.jpg" width=19% height=10%>
+<img src="https://user-images.githubusercontent.com/115423590/198258911-99ea0a13-8e5f-4184-8b23-a4d719cf5870.jpg" width=19% height=15%>
