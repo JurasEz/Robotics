@@ -10,4 +10,13 @@ Size 10cm x 10cm. Weight - about 495 grams. It uses Jsumo n30 400rpm motors, Tat
 
 
 
+
+
+
+
+Name: Wedgy.  
+Competition type - antweight.  
+Size 10cm x 10cm. Weight - about 150g This two-wheel drive wedge robot is packed with a N20 400RPM 1.5A drive system with a Dual Brushed ESC that allows agility, strength, and speed providing excellence to those new to robot combat and those experienced in the sport. The attached knife can easily get underneath opponents to flip and turn them over. The robot has been built to comply with the legal rules for all antweight events in most of Europe. It has a 2.4GHz, 4 Channel radio receiver, 2S lipo battery and silicone wheels. Its unique design allows You to do easy maintenance such as Change the battery or other compnents.
+
+
 <img src="https://user-images.githubusercontent.com/115423590/198258835-3f6492ba-dc0f-4125-b0e8-273955ebe7e8.jpg" width=19.09%>
