@@ -1,7 +1,8 @@
 # Robotics
 My achievements in the competitive robotics field.
 
-Competition type - minisumo  
+Name: Metalbutt.  
+Competition type - minisumo.  
 Size 10cm x 10cm. Weight - about 495 grams. It uses Jsumo n30 400rpm motors, Tattu 450mAh 2 cell battery, Arduino nano, and motor controllers, the robot has three IR Jsumo distance sensors and two TCRT1000 line sensors. Two buttons are placed on the top of the robot, one turns on the robot, and the other selects the strategy. The body is printed with a 3D printer from black PLA plastic, and its bottom is made from a thick steel plate. Aluminum rims from Jsumo, tires from platinum silicone (from Silikon.lt). The robot has a start module that allows it to start when the referee gives a signal.
 
 <img src="https://user-images.githubusercontent.com/115423590/198258835-3f6492ba-dc0f-4125-b0e8-273955ebe7e8.jpg" width=50% height=25%>
