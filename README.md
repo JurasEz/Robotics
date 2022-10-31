@@ -9,6 +9,16 @@ Size 10cm x 10cm. Weight - about 495 grams. It uses Jsumo n30 400rpm motors, Tat
 <br/><br/>
 
 
+Name: ToyCar.  
+Competition type - folkrace.  
+<img src="https://user-images.githubusercontent.com/115423590/199048465-ed3445ec-669d-4df7-8ff8-b79cdc8a2caa.jpg" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199048438-0b80467d-b14b-484d-bd17-b48abb359dd0.jpg" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199048451-2e716033-4981-48e7-85f2-535c4efa169c.jpg" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199048461-ca810b03-8741-48ee-8a9f-c2ff9f1d91bb.jpg" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199048457-e6900b20-afee-41c2-a809-2d2310e3e83f.jpg" width=19%>
+<br/><br/>
+
+
 Name: Wedgy.  
 Competition type - antweight.  
 Size 10cm x 10cm. Weight - about 150g This two-wheel drive wedge robot is packed with a N20 400 RPM 1.5A drive system with a Dual Brushed ESC that allows agility, strength, and speed providing excellence to those new to robot combat and those experienced in the sport. The attached knife can easily get underneath opponents to flip and turn them over. The robot has been built to comply with the legal rules for all antweight events in most of Europe. It has a 2.4GHz, 4 Channel radio receiver, 2S lipo battery and silicone wheels. Its unique design allows You to do easy maintenance such as Change the battery or other components.
