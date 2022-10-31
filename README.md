@@ -23,7 +23,7 @@ Size 10cm x 10cm. Weight - about 150g This two-wheel drive wedge robot is packed
 
 Name: Phat.  
 Competition type - minisumo.   
-<img src="https://user-images.githubusercontent.com/115423590/199051757-9a7f7b2d-b5e6-4484-9f13-37ac517fb529.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199051751-836b655e-21ca-41fa-9095-4a0efd4aaae5.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199051765-a575f2b3-b1ca-4a30-aef3-a231d065bcb1.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199051763-73431c0d-c3dd-4506-9957-1308f0c6fb8f.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199053378-66ea276d-ee57-4d00-905f-5d829006abd5.jpg" width=20%>
+<img src="https://user-images.githubusercontent.com/115423590/199051757-9a7f7b2d-b5e6-4484-9f13-37ac517fb529.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199051751-836b655e-21ca-41fa-9095-4a0efd4aaae5.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199051765-a575f2b3-b1ca-4a30-aef3-a231d065bcb1.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199054211-10492b2d-a528-435b-bfbe-b841c98d2c7d.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199053378-66ea276d-ee57-4d00-905f-5d829006abd5.jpg" width=20%>
 <br/><br/>
 
 
