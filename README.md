@@ -19,15 +19,15 @@ Size 10cm x 10cm. Weight - about 150g This two-wheel drive wedge robot is packed
 
 
 A few of my cad files:  
-<img src="https://user-images.githubusercontent.com/115423590/199032611-1015d3ea-5f28-4f20-926a-6e5bdd8481d1.png" width=20%>
-<img src="https://user-images.githubusercontent.com/115423590/199032613-b5e9d025-74b4-4442-86ce-b06aacea5e94.png" width=20%>
-<img src="https://user-images.githubusercontent.com/115423590/199032587-e130e012-8431-4d13-87d9-32886eb4331f.png" width=20%>
-<img src="https://user-images.githubusercontent.com/115423590/199032598-d4a3a57c-b8e5-4de9-bf81-dc02d71aaa46.png" width=20%>
-<img src="https://user-images.githubusercontent.com/115423590/199032580-7e46f0ce-6f64-435a-b616-32797ca76533.png" width=20%>
-<img src="https://user-images.githubusercontent.com/115423590/199032593-27b4811f-4069-4b21-8314-26469583aade.png" width=20%>
-<img src="https://user-images.githubusercontent.com/115423590/199032602-c3da7ec7-9eb2-4789-8a73-f1f50e13d0df.png" width=20%>
-<img src="https://user-images.githubusercontent.com/115423590/199032603-7b884507-81ad-481a-a939-3cdbb31aae15.png" width=20%>
-<img src="https://user-images.githubusercontent.com/115423590/199032614-4b2e3bf2-2392-439e-a498-b398aea54f04.png" width=20%>
-<img src="https://user-images.githubusercontent.com/115423590/199032605-b8e502ca-c29a-4e24-a6ae-6759a758a4f3.png" width=20%>
-<img src="https://user-images.githubusercontent.com/115423590/199032600-b96a745c-dccf-48ae-9ab5-330114b0bedc.png" width=20%>
+<img src="https://user-images.githubusercontent.com/115423590/199032611-1015d3ea-5f28-4f20-926a-6e5bdd8481d1.png" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199032613-b5e9d025-74b4-4442-86ce-b06aacea5e94.png" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199032587-e130e012-8431-4d13-87d9-32886eb4331f.png" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199032598-d4a3a57c-b8e5-4de9-bf81-dc02d71aaa46.png" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199032580-7e46f0ce-6f64-435a-b616-32797ca76533.png" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199032593-27b4811f-4069-4b21-8314-26469583aade.png" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199032602-c3da7ec7-9eb2-4789-8a73-f1f50e13d0df.png" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199032603-7b884507-81ad-481a-a939-3cdbb31aae15.png" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199032614-4b2e3bf2-2392-439e-a498-b398aea54f04.png" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199032605-b8e502ca-c29a-4e24-a6ae-6759a758a4f3.png" width=19%>
+<img src="https://user-images.githubusercontent.com/115423590/199032600-b96a745c-dccf-48ae-9ab5-330114b0bedc.png" width=19%>
 
