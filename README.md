@@ -21,7 +21,7 @@ Size 10cm x 10cm. Weight - about 150g This two-wheel drive wedge robot is packed
 <img src="https://user-images.githubusercontent.com/115423590/198273101-f3e13732-0832-4f7c-bd6b-797aa7e74c42.jpg" width=25%><img src="https://user-images.githubusercontent.com/115423590/198273104-5fff0c5e-5546-4922-9369-ce07f7f21983.jpg" width=25%><img src="https://user-images.githubusercontent.com/115423590/198273103-778e3aa0-0bca-4ad9-98cf-12a7a9d5bda2.jpg" width=25%><img src="https://user-images.githubusercontent.com/115423590/198273092-797d6258-77f8-4ef2-a30b-bf7b541a261d.jpg" width=25%>
 <br/><br/>
 
-<h1>Robots after competitions</h1>
+<h2>Robots after competitions</h2>
 
 Name: Saw.  
 Competition type - antweight.   
@@ -35,7 +35,9 @@ Competition type - minisumo.
 <br/><br/><br/><br/>
 
 
-A few of my cad files:  
+
+
+<h2>A few of my cad files:</h2>
 <img src="https://user-images.githubusercontent.com/115423590/199032611-1015d3ea-5f28-4f20-926a-6e5bdd8481d1.png" width=19%>
 <img src="https://user-images.githubusercontent.com/115423590/199032613-b5e9d025-74b4-4442-86ce-b06aacea5e94.png" width=19%>
 <img src="https://user-images.githubusercontent.com/115423590/199032587-e130e012-8431-4d13-87d9-32886eb4331f.png" width=19%>
