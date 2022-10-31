@@ -1,0 +1,199 @@
+#include <Adafruit_SSD1306.h>
+#include <splash.h>
+#include <Wire.h>
+#include <VL53L0X.h>
+#include <Adafruit_GFX.h>
+
+#define XSHUT1 4
+#define XSHUT2 2
+#define XSHUT3 7
+#define XSHUT4 6
+
+#define LOX1_ADDRESS 0x31
+#define LOX2_ADDRESS 0x32
+#define LOX3_ADDRESS 0x33
+#define LOX4_ADDRESS 0x34
+#define I2C_ADDRESS 0x3C
+
+#define SCREEN_WIDTH 128 // OLED display width, in pixels
+#define SCREEN_HEIGHT 32 // OLED display height, in pixels
+
+//M1
+const int AI1 = 9; //kaire pirmyn
+const int AI2 = 8; //kaire atgal
+const int PWMA = 3; // kaires greitis
+
+//M2
+const int BI1 = 11; // desines
+const int BI2 = 12;
+const int PWMB = 5;
+
+//stand by
+int STBY = 10;
+
+int distance1; // Kaire kaire
+int distance2; // Kaire
+int distance3; // Vidurys
+int distance4; // Desine
+
+int n; //sensoriu kintamasis
+int m; //kintamasis...
+
+Adafruit_SSD1306 oled(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+
+VL53L0X sensor1;
+VL53L0X sensor2;
+VL53L0X sensor3;
+VL53L0X sensor4;
+
+void oledSetup()
+{
+  if(!oled.begin(SSD1306_SWITCHCAPVCC, I2C_ADDRESS)) { // Address 0x3D for 128x64
+    Serial.println(F("SSD1306 allocation failed"));
+    for(;;); // Don't proceed, loop forever
+  }
+  delay(100);
+  oled.setTextSize(1);      // Normal 1:1 pixel scale
+  oled.setTextColor(SSD1306_WHITE); // Draw white text
+  oled.setCursor(0, 0);     // Start at top-left corner
+}
+
+void setup() {
+  Serial.begin(115200);
+  //Wire.begin();
+  pinMode(XSHUT1, OUTPUT);
+  pinMode(XSHUT2, OUTPUT);
+  pinMode(XSHUT3, OUTPUT);
+  pinMode(XSHUT4, OUTPUT);
+  // put your setup code here, to run once:
+  oledSetup();
+  digitalWrite(XSHUT1, LOW);
+  digitalWrite(XSHUT2, LOW);
+  digitalWrite(XSHUT3, LOW);
+  digitalWrite(XSHUT4, LOW);
+  delay(500);
+ 
+  digitalWrite(XSHUT1, HIGH);
+  digitalWrite(XSHUT2, HIGH);
+  digitalWrite(XSHUT3, HIGH);
+  digitalWrite(XSHUT4, HIGH);
+ 
+  oled.clearDisplay();
+  oled.setCursor(0, 0);
+  oled.println("all reset");
+  oled.display();
+
+  delay(500);
+
+  digitalWrite(XSHUT1, HIGH);
+  digitalWrite(XSHUT2, LOW);
+  digitalWrite(XSHUT3, LOW);
+  digitalWrite(XSHUT4, LOW);
+
+  delay(500);
+
+  if(!sensor1.init())
+  {
+    oled.println("Fail init sensor1");
+    delay(1000);
+  }
+  else oled.println("sensor 1 done");
+  sensor1.setAddress(LOX1_ADDRESS);
+  sensor1.setTimeout(50);
+  //oled.clearDisplay();
+  oled.display();
+
+  digitalWrite(XSHUT2, HIGH);
+
+  delay(500);
+
+  if(!sensor2.init())
+  {
+    oled.println("Fail init sensor2");
+    delay(1000);
+  }
+  else  oled.println("sensor 2 done");
+  sensor2.setAddress(LOX2_ADDRESS);
+  sensor2.setTimeout(50);
+  //oled.clearDisplay();
+  oled.display();
+  delay(500);
+ 
+  digitalWrite(XSHUT3, HIGH);
+
+  delay(500);
+
+  if(!sensor3.init())
+  {
+    //Serial.print(sensor3.last_status);
+    oled.println("Fail init sensor3");
+    Serial.println(sensor3.last_status);
+    delay(1000);
+  }
+  else oled.println("sensor 3 done");
+  sensor3.setAddress(LOX3_ADDRESS);
+  sensor3.setTimeout(50);
+  //oled.clearDisplay();
+  oled.display();
+  delay(500);
+
+  digitalWrite(XSHUT4, HIGH);
+
+  delay(500);
+
+  if(!sensor4.init())
+  {
+    //Serial.print(sensor4.last_status);
+    oled.println("Fail init sensor4");
+    Serial.println(sensor4.last_status);
+    delay(1000);
+  }
+  else oled.println("sensor 4 done");
+  sensor4.setAddress(LOX4_ADDRESS);
+  sensor4.setTimeout(50);
+  //oled.clearDisplay();
+  oled.display();
+  delay(500);
+
+  sensor1.startContinuous();
+  sensor2.startContinuous();
+  sensor3.startContinuous();
+  sensor4.startContinuous();
+
+  delay(500);
+  oled.setCursor(64, 0);
+  oled.println("Boot done");
+  delay(100);
+ 
+pinMode(PWMA, OUTPUT);
+pinMode(AI1, OUTPUT);
+pinMode(AI2, OUTPUT);
+
+pinMode(PWMB, OUTPUT);
+pinMode(BI1, OUTPUT);
+pinMode(BI2, OUTPUT);
+
+pinMode(STBY, OUTPUT);
+
+pinMode(STBY, HIGH);
+
+}
+
+void loop() {
+  oled.clearDisplay();
+  oled.setCursor(0, 0);
+  oled.print(distance1);
+  oled.print(" ");
+  oled.print(distance2);
+  oled.print(" ");
+  oled.print(distance3);
+  oled.print(" ");
+  oled.print(distance4);
+  oled.println();
+  oled.display();
+
+  distance1 = sensor1.readRangeContinuousMillimeters() - 0;
+  distance2 = sensor2.readRangeContinuousMillimeters() - 0;
+  distance3 = sensor3.readRangeContinuousMillimeters() - 0;
+  distance4 = sensor4.readRangeContinuousMillimeters() - 0;
+}
