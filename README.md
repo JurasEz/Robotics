@@ -11,7 +11,7 @@ Size 10cm x 10cm. Weight - about 495 grams. It uses Jsumo n30 400rpm motors, Tat
 
 Name: ToyCar.  
 Competition type - folkrace.  
-Size 10cm x 18cm. Weight - about 400g This four-wheel drive race car has 5 precise Pololu distance sensors. The car is programed via Raspberry Pi Pico. It has a 2.4GHz, 4 Channel radio receiver, 2S lipo battery and silicone wheels. Its design allows You to do easy maintenance such as Change the battery or other components.
+Size 10cm x 18cm. Weight - about 400g This four-wheel drive race car has 5 precise Pololu distance sensors. The car is programed via Raspberry Pi Pico. It has a 2.4GHz, 4 Channel radio receiver, 2S lipo battery and silicone wheels. Its design allows You to do easy maintenance such as Change the battery or other components.      
 <img src="https://user-images.githubusercontent.com/115423590/199048465-ed3445ec-669d-4df7-8ff8-b79cdc8a2caa.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199048438-0b80467d-b14b-484d-bd17-b48abb359dd0.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199048451-2e716033-4981-48e7-85f2-535c4efa169c.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199048461-ca810b03-8741-48ee-8a9f-c2ff9f1d91bb.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199048457-e6900b20-afee-41c2-a809-2d2310e3e83f.jpg" width=20%>
 <br/><br/>
 
