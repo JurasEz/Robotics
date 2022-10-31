@@ -1,1 +1,87 @@
-//Arduino program:
+#include <Servo.h>
+#include "Motors.h"
+#include "LineSensors.h"
+#include "IRSensors.h"
+
+Servo servo;
+Motors motors;
+LineSensors lineSensors;
+IRSensors irSensors;
+const uint8_t startModulePin = 8;
+const uint8_t switchPin = 12;
+extern volatile unsigned long timer0_millis;
+
+void setup() {
+  Serial.begin(9600);
+  
+  servo.attach(9);
+  
+  motors.left.setPins(11, 3);
+  motors.right.setPins(5, 6);
+
+  lineSensors.left.setPin(A1);
+  lineSensors.right.setPin(A2);
+
+  irSensors.left.setPin(4);
+  irSensors.middle.setPin(7);
+  irSensors.right.setPin(2);
+
+  pinMode(startModulePin, INPUT);
+}
+
+void loop() {
+  //Serial.println(analogRead(A3));
+  if (!digitalRead(startModulePin) && !digitalRead(switchPin)) {
+    motors.left.drive(0);
+    motors.right.drive(0);
+  } else {
+    servo.write(15);
+
+    irSensors.checkMoods();
+
+    if (irSensors.middle.mood) {
+      motors.left.drive(255);
+      motors.right.drive(255);
+    } else {
+      if (irSensors.right.mood) {
+        noInterrupts();
+        timer0_millis = 0;
+        interrupts();
+        while(!irSensors.middle.mood && !irSensors.left.mood && millis() < 300){
+          motors.left.drive(100);
+          motors.right.drive(-100);
+          irSensors.checkMoods();
+        }
+      } else if (irSensors.left.mood) {
+        noInterrupts();
+        timer0_millis = 0;
+        interrupts();
+        while(!irSensors.middle.mood && !irSensors.right.mood && millis() < 300){
+          motors.left.drive(-100);
+          motors.right.drive(100);
+          irSensors.checkMoods();
+        }
+      } else {
+        motors.left.drive(255);
+        motors.right.drive(255);
+      }
+      
+      if (lineSensors.left.checkMood()) {
+        motors.left.drive(-255);
+        motors.right.drive(-255);
+        delay(150);
+        motors.left.drive(255);
+        motors.right.drive(-255);
+        delay(250);
+      }
+      if (lineSensors.right.checkMood()) {
+        motors.left.drive(-255);
+        motors.right.drive(-255);
+        delay(150);
+        motors.left.drive(-255);
+        motors.right.drive(255);
+        delay(250);
+      }
+    }
+  }
+}
