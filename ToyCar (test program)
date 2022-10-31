@@ -1,0 +1,91 @@
+#include <Servo.h>
+
+Servo servo;
+#define P 5 //pirmyn
+#define A 6 //atgal
+
+void setup() {
+  Serial.begin(9600);
+
+  servo.attach(7);
+
+  pinMode(P, OUTPUT);
+  pinMode(A, OUTPUT);
+}
+
+void drive(int a);
+
+void loop() {
+  x();
+  /*
+  drive(100);
+  */
+  delay(2000);
+  drive(255);
+  delay(1000);
+  drive(0);
+  delay(2000);
+  //servo.write(0);
+  //delay(800);
+  //servo.write(180);
+  //delay(800);
+
+  //analogWrite(P, 175);
+}
+
+void drive(int a){
+   if (a > 0){
+ //digitalWrite(P, HIGH);
+ digitalWrite(A, LOW);
+ analogWrite(P, a);
+ }
+   if (a < 0){
+ digitalWrite(P, LOW);
+ //digitalWrite(A, HIGH);
+ analogWrite(A, abs(a));
+ }
+   if (a == 0){
+ digitalWrite(P, LOW);
+ digitalWrite(A, LOW);
+ }
+}
+
+/*
+// Example Arduino program for reading the Pololu Distance Sensor with Pulse Width Output, 130cm Max
+ 
+// Change this to match the Arduino pin connected to the sensor's OUT pin.
+const uint8_t sensorPin = 7;
+ 
+void setup()
+{
+  Serial.begin(115200);
+}
+ 
+void loop()
+{
+  int16_t t = pulseIn(sensorPin, HIGH);
+ 
+  if (t == 0)
+  {
+    // pulseIn() did not detect the start of a pulse within 1 second.
+    Serial.println("timeout");
+  }
+  
+  else if (t > 1850)
+  {
+    // No detection.
+    Serial.println(-1);
+  }
+  else
+  {
+    // Valid pulse width reading. Convert pulse width in microseconds to distance in millimeters.
+    int16_t d = (t - 1000) * 2;
+ 
+    // Limit minimum distance to 0.
+    if (d < 0) { d = 0; } 
+  
+    Serial.print(d);
+    Serial.println(" mm");
+  }
+}
+*/
