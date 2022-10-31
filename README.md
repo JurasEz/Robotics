@@ -20,3 +20,13 @@ Size 10cm x 10cm. Weight - about 150g This two-wheel drive wedge robot is packed
 
 A few of my cad files:  
 <img src="https://user-images.githubusercontent.com/115423590/199032611-1015d3ea-5f28-4f20-926a-6e5bdd8481d1.png" width=25%>
+<img src="https://user-images.githubusercontent.com/115423590/199032613-b5e9d025-74b4-4442-86ce-b06aacea5e94.png" width=25%>
+<img src="https://user-images.githubusercontent.com/115423590/199032587-e130e012-8431-4d13-87d9-32886eb4331f.png" width=25%>
+<img src="" width=25%>
+<img src="" width=25%>
+<img src="" width=25%>
+<img src="" width=25%>
+<img src="" width=25%>
+<img src="" width=25%>
+<img src="" width=25%>
+
