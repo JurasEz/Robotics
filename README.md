@@ -17,14 +17,14 @@ Size 10cm x 18cm. Weight - about 400g This four-wheel drive race car has 5 preci
 
 Name: Wedgy.  
 Competition type - antweight.  
-Size 10cm x 10cm. Weight - about 150g This two-wheel drive wedge robot is packed with a N20 400 RPM 1.5A drive system with a Dual Brushed ESC that allows agility, strength, and speed providing excellence to those new to robot combat and those experienced in the sport. The attached knife can easily get underneath opponents to flip and turn them over. The robot has been built to comply with the legal rules for all antweight events in most of Europe. It has a 2.4GHz, 4 Channel radio receiver, 2S lipo battery and silicone wheels. Its unique design allows You to do easy maintenance such as Change the battery or other components.   
+Size 10cm x 10cm. Weight - about 150g. This two-wheel drive wedge robot is packed with a N20 400 RPM 1.5A drive system with a Dual Brushed ESC that allows agility, strength, and speed providing excellence to those new to robot combat and those experienced in the sport. The attached knife can easily get underneath opponents to flip and turn them over. The robot has been built to comply with the legal rules for all antweight events in most of Europe. It has a 2.4GHz, 4 Channel radio receiver, 2S lipo battery and silicone wheels. Its unique design allows You to do easy maintenance such as Change the battery or other components.   
 <img src="https://user-images.githubusercontent.com/115423590/198273101-f3e13732-0832-4f7c-bd6b-797aa7e74c42.jpg" width=25%><img src="https://user-images.githubusercontent.com/115423590/198273104-5fff0c5e-5546-4922-9369-ce07f7f21983.jpg" width=25%><img src="https://user-images.githubusercontent.com/115423590/198273103-778e3aa0-0bca-4ad9-98cf-12a7a9d5bda2.jpg" width=25%><img src="https://user-images.githubusercontent.com/115423590/198273092-797d6258-77f8-4ef2-a30b-bf7b541a261d.jpg" width=25%>
 <br/><br/>
 
-<h2>Robots after competitions</h2>
 
 Name: Saw.  
 Competition type - antweight.   
+Size 10cm x 10cm. Weight - about 150g. This robot had some very rough competitions.
 <img src="https://user-images.githubusercontent.com/115423590/199056086-04938142-c2cf-4da8-83e3-b08ba7198378.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199056079-dde52e8b-432f-42be-b9d6-80dca7b465a3.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199058032-5d77dfcf-eee7-4859-9093-92c77deb4c07.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199056070-6d6aea96-669c-41b7-9ae8-9b2a81dfb7dd.jpg" width=20%><img src="https://user-images.githubusercontent.com/115423590/199056082-7663c563-674f-45a2-bfdc-ad356a6646f9.jpg" width=20%>
 <br/><br/>
 
@@ -36,7 +36,6 @@ Competition type - minisumo.
 
 
 
-<h6>A few of my cad files:  </h6>    
 A few of my cad files:   
 <img src="https://user-images.githubusercontent.com/115423590/199032611-1015d3ea-5f28-4f20-926a-6e5bdd8481d1.png" width=19%>
 <img src="https://user-images.githubusercontent.com/115423590/199032613-b5e9d025-74b4-4442-86ce-b06aacea5e94.png" width=19%>
